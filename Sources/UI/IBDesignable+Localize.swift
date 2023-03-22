@@ -5,7 +5,7 @@
 //  Copyright © 2020 Roy Marmelstein. All rights reserved.
 //
 
-#if !os(macOS)
+#if !os(macOS) && !os(watchOS)
 import Foundation
 import UIKit
 
